@@ -1,0 +1,96 @@
+@media all and (max-width: 600px) and (orientation: portrait) {
+  nav {
+    visibility: hidden;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .hero {
+    /* max-width: 130rem; */
+    display: grid;
+    gap: 0rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .hero-description {
+    font-size: 10.5vw;
+  }
+  .hero-description1 {
+    font-size: 16.5vw;
+    margin-bottom: 5rem;
+  }
+
+  .heading-primary {
+    font-weight: 700;
+    /* font-size: 10rem; */
+    font-size: 55.5vw;
+    line-height: 1.05;
+    /* margin-bottom: 0.3rem; */
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    z-index: 10;
+  }
+  .hero-img {
+    position: absolute;
+    width: 65rem;
+    height: 65rem;
+    left: 35rem;
+    top: 10rem;
+    z-index: -1;
+    opacity: 0.6;
+  }
+  .circle1 {
+    position: absolute;
+    /* width: 461px;
+    height: 428px; */
+    left: -20rem;
+    top: 21px;
+    /* object-position: bottom; */
+    z-index: -5;
+    visibility: hidden;
+  }
+  .circle2,
+  .circle3,
+  .circle4,
+  .circle5 {
+    visibility: hidden;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    font-size: 13vw;
+    padding: 2rem 5rem;
+  }
+
+  .about-img {
+    visibility: hidden;
+  }
+  .ll {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    height: 50rem;
+    margin-top: 5rem;
+    margin-left: 55vw;
+  }
+  .l1,
+  .l2 {
+    font-size: 7vw;
+    width: 50%;
+  }
+  .about{
+    display: flex;
+    justify-content: center;
+  }
+  .abt-txt{
+    font-size: 10vw;
+  }
+}
+
